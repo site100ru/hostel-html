@@ -147,12 +147,10 @@ p strong {
 }
 
 @media (max-width: 768px) {
-    .woocommerce-product-details__short-description p strong {
-        font-size: 20px;
-    }
-
+	.woocommerce-product-details__short-description p strong {
+		font-size: 20px;
+	}
 }
-
 
 .section.bg-light,
 .bg-light {
@@ -198,7 +196,7 @@ p {
 	font-family: Gilroy-Light;
 	color: #323232;
 	font-size: 20px;
-    line-height: 135%;
+	line-height: 135%;
 }
 
 a {
@@ -524,6 +522,9 @@ a:hover {
 	.navbar-light .navbar-nav button.nav-link:hover {
 		color: var(--corporate-color-1) !important;
 		opacity: 1;
+	}
+	.navbar-light .navbar-nav button.nav-link {
+		text-transform: uppercase;
 	}
 }
 
